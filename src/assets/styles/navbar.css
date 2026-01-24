@@ -1,0 +1,104 @@
+.navbar-outside{
+    width: 100%;
+    height: 120px;
+    background: linear-gradient(to right,#1b3767, #181b20);
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.kaan{
+  display: flex;
+  position: absolute;
+  left: 35%;
+  
+  width: 80%;
+  height: 60px;
+  justify-content: center;
+}
+.navbar-links{
+  display: flex;
+  list-style: none;
+  gap: 60px;
+  align-items: center
+  
+}
+
+.li-style:hover{
+  border-bottom:2px solid #82ade6;;
+  transition: 0.1s;
+  
+}
+
+.li-style:active{
+  color: #82ade6;
+}
+
+.txt-style1:hover{
+  color: #82ade6;
+}
+
+.navbar-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+.logo{
+display: flex;
+justify-content: center;
+width: 35%;
+}
+
+
+.logo-pc{
+    
+    width: 100px;
+    height:100px;
+}
+
+.socialMedia{
+  display: flex;
+  gap: 15px;
+}
+
+.socialMedia li:hover {
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+
+/* Ekran 768px'den küçükse bu kurallar çalışır */
+@media (max-width: 768px) {
+  
+  .navbar-outside {
+    flex-direction: column; 
+    height: auto;           
+    padding: 20px 0;        
+  }
+
+  .logo {
+    width: 100%;            
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+
+  .kaan {
+    position: static;       
+    width: 100%;
+    height: auto;
+    left: 0;                
+  }
+
+  .navbar-links {
+    flex-direction: column; 
+    gap: 20px;              
+    padding: 0;
+  }
+
+  .logo-pc {
+    width: 70px;            
+    height: 70px;
+  }
+}

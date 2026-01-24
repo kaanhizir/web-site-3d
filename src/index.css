@@ -1,0 +1,17 @@
+*{
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+   
+
+
+}
+body{
+  margin: 0;
+  padding: 0;
+   background-color: #1e2128;
+   overflow-x:hidden;
+}
+
+

@@ -1,0 +1,187 @@
+/* GENEL AYARLAR */
+.contact-main {
+    width: 100%;
+    overflow-x: hidden; 
+    background-color: #1E2128;
+}
+
+/* BANNER ALANI */
+.contact-pic {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-picture img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+    filter: brightness(0.5);
+}
+
+
+.contact-txt, .contact-txt1 {
+    position: relative;
+    z-index: 2;
+    left: auto;
+    top: auto;
+    transform: none;
+    color: white;
+}
+
+.contact-txt {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.contact-txt1 {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+/* İLETİŞİM ALANI KONTEYNER */
+.cntc-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+    max-width: 1300px; 
+    margin: 40px auto; 
+    padding: 0 20px;
+}
+
+.left-side, .right-side {
+    flex: 1;
+    min-height: 600px;
+    background-color: #2f343e;
+    border-radius: 15px;
+    padding-bottom: 20px;
+}
+
+.cnct-Info {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    padding: 30px; 
+}
+
+.contactInfo {
+    font-size: 30px;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+
+/* FORM STİLLERİ */
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    width: 100%; 
+}
+
+.acs, .asc {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    background-color: #2f343e;
+    color: white;
+    font-size: 16px;
+    padding: 0 15px;
+    width: 94%;
+}
+
+.acs { height: 50px; }
+.asc { height: 150px; padding-top: 15px; }
+
+.acs::placeholder, .asc::placeholder {
+    color: white;
+    font-size: 18px;
+}
+
+.form-btn {
+    width: 100%; 
+    height: 60px;
+    background: linear-gradient(to right, #2d6aa0, #5e479f);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* --- RESPONSIVE (MOBİL UYUMLULUK) --- */
+
+/* Tabletler için (Max 1200px) */
+@media (max-width: 1200px) {
+    .cntc-main {
+        flex-wrap: wrap; /* Sığmazsa aşağı atar */
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+/* Telefonlar ve Küçük Tabletler (Max 768px) */
+@media (max-width: 768px) {
+    .cntc-main {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .left-side, .right-side {
+        width: 100%;
+        height: auto; 
+    }
+
+    .contact-pic {
+        height: 300px;
+    }
+
+    .contact-txt {
+        font-size: 30px;
+    }
+
+    .contact-txt1 {
+        font-size: 18px;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    /* Harita boyutu mobilde taşmasın */
+    .right-side div[style] {
+        width: 100% !important; 
+        height: 300px !important;
+    }
+
+    .acs, .asc{
+        width: 88%;
+    }
+    .form-btn{
+        width: 97%;
+    }
+}
+
+/* Küçük Telefonlar (Max 480px) */
+@media (max-width: 480px) {
+    .cnct-Info {
+        padding: 15px;
+    }
+    
+    .contactInfo {
+        font-size: 24px;
+    }
+
+    .acs::placeholder, .asc::placeholder {
+        font-size: 16px;
+    }
+}

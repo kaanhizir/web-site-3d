@@ -1,0 +1,124 @@
+/* --- GENEL MASAÜSTÜ STİLLERİ --- */
+.footer-main {
+    width: 100%;
+    min-height: 250px;
+    background-color: #191c21;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 40px 0 20px 0;
+    margin-top: 30px;
+}
+
+
+.foooter-main1 {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+/* Logo / Marka Metni */
+.footer-txt p {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+}
+
+/* Linkler ve Sosyal Medya Grubu */
+.footer-txt2 {
+    width: 100%;
+}
+
+.ftrr {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+    padding: 0 50px;
+}
+
+.ftr {
+    display: flex;
+    gap: 25px;
+}
+
+.ftr p {
+    font-size: 15px;
+    color: grey;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.ftr p:hover {
+    color: white;
+}
+
+/* Sosyal Medya */
+.social-media {
+    display: flex;
+    gap: 20px;
+}
+
+.social-media div {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.social-media div:hover {
+    transform: scale(1.2);
+}
+
+/* En Alt Telif Yazısı */
+.ftr-end-txt {
+    color: #666;
+    font-size: 13px;
+    margin-top: 20px;
+    border-top: 1px solid #252525;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* --- RESPONSIVE (MOBİL UYUMLULUK) --- */
+
+@media (max-width: 768px) {
+    .footer-main {
+        height: auto;
+        
+        padding: 40px 1px;
+    }
+
+    .ftrr {
+        flex-direction: column; 
+        gap: 30px;
+        padding: 0;
+    }
+
+    .ftr {
+        flex-direction: column; 
+        align-items: center;
+        gap: 15px;
+    }
+
+    .ftr p {
+        padding: 0;
+        text-align: center;
+    }
+
+    .social-media {
+        justify-content: center;
+    }
+
+    .ftr-end-txt {
+        position: static;
+        margin-top: 30px;
+    }
+}
