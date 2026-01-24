@@ -96,6 +96,8 @@
     text-decoration: none;
     color: gray;
 }
+
+
 /* --- RESPONSIVE (MOBİL UYUMLULUK) --- */
 
 @media (max-width: 768px) {

@@ -67,6 +67,7 @@
 
 .main-details-2 {
     top: 0; 
+    margin-top: -40px;
 }
 
 /* KART STİLLERİ */
@@ -82,6 +83,7 @@
     color: white;
     transition: 0.3s ease;
 }
+
 
 .card2 {
     height: 200px;
