@@ -24,7 +24,7 @@ function Products() {
           
           <div className='aboutus-txt1'>ÜRÜNLERİMİZ</div>
           <div className='about-us-dlt-txt1'>Ürettiğimiz Ürünlerimizi Keşfedin</div>
-          <div className='about-us-btn1'><a href='/'>Hakkımızda</a></div>
+          <div className='about-us-btn1'><a href='/hakkimizda'>Hakkımızda</a></div>
           
         </div>
 

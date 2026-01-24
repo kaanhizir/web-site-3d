@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import "../assets/styles/navbar.css";
 import Logo from "../assets/images/logo1.png";
+import Logo112 from "..//assets/images/dolap-icon.png"
 import { IoLogoInstagram } from "react-icons/io5";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaWhatsapp } from "react-icons/fa";
@@ -31,6 +32,7 @@ function Navbar() {
           </li>
           <div className="socialMedia">
           <a href="https://www.instagram.com/ucboyutluatolye/"><li><IoLogoInstagram color="white" size="20px" /></li></a>
+          <li><a href="https://link.dolap.com/mq8bi7"><img className="logooo" src={Logo112} alt="Logo" /></a></li>
           <li><FaXTwitter color="white" size="20px" /></li>
           <li><FaWhatsapp color="white" size="20px" /></li>
           </div>

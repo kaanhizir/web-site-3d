@@ -69,6 +69,11 @@ width: 35%;
     transition: 0.2s;
 }
 
+.logooo{
+  width: 20px;
+  height: 20px;
+}
+
 /* Ekran 768px'den küçükse bu kurallar çalışır */
 @media (max-width: 768px) {
   

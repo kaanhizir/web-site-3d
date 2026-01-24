@@ -26,7 +26,7 @@
 .footer-txt p {
     color: white;
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 400;
     margin: 0;
 }
 
@@ -87,6 +87,15 @@
     padding-top: 20px;
 }
 
+.logo1122{
+    width: 20px;
+    height: 20px;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: gray;
+}
 /* --- RESPONSIVE (MOBİL UYUMLULUK) --- */
 
 @media (max-width: 768px) {

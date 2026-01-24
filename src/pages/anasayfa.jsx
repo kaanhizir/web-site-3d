@@ -20,7 +20,7 @@ function Anasayfa(){
             <div className="main-txt">
                 <div className="main-txt-1">GELECEĞİ ŞEKİLLENDİR</div>
                 <div className="main-txt-2">Hassas 3D Baskı Çözümleri</div>
-                <a href='main-detail' smooth={true} duration={500}><div className="main-txt-3">Daha Fazlasını Keşfet</div></a>
+                <a href='/urunler' smooth={true} duration={500}><div className="main-txt-3">Daha Fazlasını Keşfet</div></a>
             </div>
 
             <div className="main-details">
@@ -41,17 +41,17 @@ function Anasayfa(){
             <div id="main-detail" className="main-details-2">
                 <div className="card2">
                 <div className="main-photo1"><img src={Photo1}></img></div>
-                <div className="txt-main-1">Deneme</div>
+                <div className="txt-main-1">Hızlı Prototipleme</div>
                 </div>
 
                 <div className="card2">
                 <div className="main-photo1"><img src={Photo2}></img></div>
-                <div className="txt-main-1">Deneme</div>
+                <div className="txt-main-1">Gelişmiş Malzemeler</div>
                 </div>
 
                 <div className="card2">
                 <div className="main-photo1"><img src={Photo3}></img></div>
-                <div className="txt-main-1">Deneme</div>
+                <div className="txt-main-1">Talep Üzerine Üretim</div>
                 </div>
             </div>
         </div>

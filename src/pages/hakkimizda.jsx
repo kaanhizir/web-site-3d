@@ -16,7 +16,7 @@ function Info() {
           </div>
           <div className='aboutus-txt'>HAKKIMIZDA</div>
           <div className='about-us-dlt-txt'>Hassas 3D Baskı Çözümleri</div>
-          <div className='about-us-btn'><a href='/'>Ürünlerimizi Keşfedin</a></div>
+          <div className='about-us-btn'><a href='/urunler'>Ürünlerimizi Keşfedin</a></div>
         </div>
 
         <div className='about-us-split'>
@@ -30,7 +30,7 @@ function Info() {
               <div className='mem-1'>
               <div className='profile'><img src={Photo1}></img></div>
               <div className='mem-name'>Umutcan Hızır</div>
-              <div className='mem-info'>Maraba</div>
+              <div className='mem-info'>Piç</div>
               </div>
               <div className='mem-2'>
                 <div className='profile'><img src={Photo1}></img></div>
