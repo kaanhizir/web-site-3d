@@ -138,9 +138,18 @@
         align-items: center;
     }
 
+    .phone-num, .aaa{
+        margin-bottom: 15px;
+    }
+
+    .map{
+        margin-top: 60px;
+    }
+
     .left-side, .right-side {
-        width: 100%;
+        width: 95%;
         height: auto; 
+        margin-left: -35px;
     }
 
     .contact-pic {
@@ -175,6 +184,7 @@
 @media (max-width: 480px) {
     .cnct-Info {
         padding: 15px;
+        
     }
     
     .contactInfo {

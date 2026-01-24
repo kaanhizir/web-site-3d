@@ -18,7 +18,11 @@
     object-fit: cover; 
 }
 
-
+.au-baslik{
+    font-size: 25px;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
 .aboutus-txt, .about-us-dlt-txt, .about-us-btn {
     position: absolute;
     left: 50%;
@@ -88,6 +92,11 @@
     margin-top: 20px;
 }
 
+.profile, .mem-info, .mem-name{
+    display: flex;
+    justify-content: center;
+}
+
 .profile img {
     width: 100px;
     height: 100px;
@@ -141,8 +150,8 @@
     }
 
     .about-txt, .owners {
-        width: 95% !important;
-        margin-right: 0 !important; 
+        width: 84% !important;
+        margin-left: 3px !important; 
         height: auto !important;   
         margin-bottom: 20px;
     }

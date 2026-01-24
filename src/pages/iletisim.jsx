@@ -56,7 +56,7 @@ function Contact() {
               <div className="phone-num aaa">
                 <span className="bbb">Telefon Numarası: </span>0535 000 00 00
               </div>
-              <div style={{ height: "400px", width: "635px" }}>
+              <div className="map" style={{ height: "400px", width: "635px" }}>
                 <MapContainer
                   center={position}
                   zoom={13}
