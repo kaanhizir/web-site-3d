@@ -30,12 +30,12 @@ function Info() {
               <div className='mem-1'>
               <div className='profile'><img src={Photo1}></img></div>
               <div className='mem-name'>Umutcan Hızır</div>
-              <div className='mem-info'>Piç</div>
+              <div className='mem-info'>Deneme</div>
               </div>
               <div className='mem-2'>
                 <div className='profile'><img src={Photo1}></img></div>
               <div className='mem-name'>Onur Aslan</div>
-              <div className='mem-info'>Maraba</div>
+              <div className='mem-info'>Deneme</div>
               </div>
             </div>
           </div>
